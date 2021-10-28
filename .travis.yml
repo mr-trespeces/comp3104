@@ -19,6 +19,7 @@ script:
   - yarn build
   - mv build/index.html build/404.html
 
+  
 deploy:
   provider: pages
   skip_cleanup: true
